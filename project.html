@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DarkRoom</title>
+    <style>
+      body{
+        background-image: url(https://drive.google.com/uc?export=view&id=1G9ijXWRDQ9ODXv_c5xpkRlZiuEEy-mQl);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+      }
+      
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      h1 {
+        color: #27296d;
+        padding: 60px 20px;
+        max-width: 700px;
+        background: #f5c7f774;
+        line-height: 48px;
+        margin: 0 auto;
+      }
+
+      h2 {
+        margin: 0;
+        color: #f5c7f7;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+      }
+      
+      table{
+        border: 10px solid #27296d;
+        border-collapse: collapse;
+        background: linear-gradient(75.7deg, #5e63b6 2.8%,#a393eb 88.1%);
+        padding:0 50px 0 50px;
+        margin-top: 70%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      td {
+        color: #f5c7f7;
+        text-align: center;
+        padding:0 40px 0 40px;
+        /*border-radius: 15px;*/
+        transition: all 200ms ease-in-out;
+        width:500px;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      
+
+      p {
+        font-size: 18px;
+        text-align: center;
+        font-family: monospace;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #27296d;
+        background: #27296d;
+        color: #f5c7f7;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background:#f5c7f7;
+        color: #27296d;
+        border: 1px solid #27296d;
+      }
+      
+      .container {
+        position: relative;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #27296d;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+      }
+
+      .container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+
+      .text {
+        color: #f5c7f7;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      div.middle {
+        height: 200px;
+        width: 400px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -200px;
+      }
+
+      div.head {
+        height: 200px;
+        width: 400px;
+        min-width: 600px;
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -330px;
+        padding: 20px 30px 0px 30px;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+
+      div.head:hover {
+        background: linear-gradient(75.7deg, #5e63b6 2.8%,#a393eb 88.1%);
+      }
+
+      a{
+        text-decoration: none;
+      }
+
+      a:hover{
+        text-decoration: underline;
+      }
+
+      p.vote{
+        background: #f5c7f7ad;
+        border-radius: 20px;
+        padding: 10px 0;
+        border-radius: 10px;
+      }
+
+      p.credit{
+        background: #f5c7f7ad;
+        border-radius: 20px;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="middle">
+      <h1 style = "font-family: 'Courier New', monospace; font-size: 34px;">
+        Hi there!
+        <br />
+        <div style="font-size: 24px;">Welcome to my <span style="color: black;"><strong><em>DarkRoom</em></strong></span> </div>
+      </h1>
+    </div>
+    <div class="head">
+      <h2 style="font-family: Garamond, serif;">
+        In my opinion, photography is one of the best gifts that humanity has given itself with its invention.
+        <br />
+        It can be said that we know how to make more things than bombs!
+        <br />
+        I realized that we humans have different views of the world.
+        <br />
+        So I decided to record what I see.
+        <br />
+        To show what the world looks like from my eyes.
+        <br />
+        I hope you enjoy seeing the photos! 📸</h2>
+    </div>
+    
+    
+
+    
+    <table>
+      <tr>
+        <td><h3 style="font-family: Georgia, serif;">Landscape</h3></td>
+        <td><h3 style="font-family: Georgia, serif;">Building</h3></td>
+        <td><h3 style="font-family: Georgia, serif;">Daily life</h3></td>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <img src = "https://drive.google.com/uc?export=view&id=1FJwIPVOpyInSWCa_iTHe3QigNePX5GHu" width="350" height="500" alt="Sea" class="image">
+            <div class="overlay">
+              <div class="text">Persian Gulf</div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <img src = "https://drive.google.com/uc?export=view&id=1f_YYu4c88EyixTDcB5JcSToYkfEwhQou" width="350" height="500" alt="University" class="image">
+            <div class="overlay">
+              <div class="text">Alzahra University Department of Computer</div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <img src = "https://drive.google.com/uc?export=view&id=1smNLWyqn4D9lBCgl9b9S3e-HZoNT4iCC" width="350" height="500" alt="Birds" class="image">
+            <div class="overlay">
+              <div class="text">My house's yard</div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style = "font-size: 20px;"><br />Photographing landscapes is the most enjoyable thing for me. Nature in its most untouched form reminds me of the place where we actually belong.</td>
+        <td style = "font-size: 20px;"><br />I think the buildings each have interesting stories that if we touch them, they might whisper them in our ears!</td>
+        <td style = "font-size: 20px;"><br />When you can see the beauty in ordinary life, that's when you are a witch!</td>
+      </tr>
+    </table>
+    
+    <hr>
+
+    <p class="vote">
+      I would be very happy if you help me in my photography progress with your feedback! 🤩
+    </p>
+    
+
+    <button>
+      Rate!
+    </button>
+    
+    <p class="credit">
+      Coded [ and all photos ] by <a  target="_blank" href="https://github.com/matabati">Maryam Atabati</a>
+    </p>
+    
+    <script>
+
+        function feedback(){
+            let name = prompt("What is your name?");
+            let rate = prompt("How you rate my photography skill from 1 - 10?");
+            let h1 = document.querySelector("h1");
+
+            if(rate>=5 && rate<=10){
+              alert("Wow! Thanks! 😍");
+            }
+            else if (rate<5){
+              alert("I hope you 'll like them more in your next visit! 😇"); 
+            }
+            else{
+              feedback();
+            }
+            h1.innerHTML = "Thank you so much " + name + " for your visit!";
+
+        }
+
+        alert("Hi! Please be patient 😉✨");
+
+        let contactButton = document.querySelector("button");
+
+        contactButton.addEventListener("click" , feedback);
+
+    </script>
+
+  </body>
+</html>
